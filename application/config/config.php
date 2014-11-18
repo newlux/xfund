@@ -504,5 +504,5 @@ $config['proxy_ips'] = '';
 /*自定义配置*/
 $config['fund'] = array(
      'ver'=>'20141106002',
-	 'path'=>'/webapp'
+	 'path'=>'/webapp/xfund'
 );
