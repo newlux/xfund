@@ -1,0 +1,9 @@
+ <%_.each(data, function(v,k){%>
+                <div class="dtc w33">
+					<ul class="stock">
+						<li><%=v.name %></li>
+						<li><span class="<%if(v.isup){ %>cRed<%} else{%>cGreen<%} %>"><em><%=v.total %></em></span></li>
+						<li ><%=v.change %>%</li>
+					</ul>
+				</div>
+<%})%>

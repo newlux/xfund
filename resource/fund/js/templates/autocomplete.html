@@ -1,0 +1,10 @@
+<ul>
+     <%_.each(data, function(v,k){%>
+	<li class="ui-menu-item" role="presentation">
+		<span style="width:18%;"><%=v.code%></span>
+		<span style="width:22%;"><%=v.spell%></span>
+		<span style="width:36%;"><%=v.name%></span>
+		<span style="width:16%;color:#999;text-align:center;"><%=v.typeName%></span>
+	</li>
+	<%})%>
+</ul>
